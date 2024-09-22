@@ -6,6 +6,16 @@ body {
     font-family: "Playwrite DE Grund", cursive;
 }
 
+#bevezeto {
+  text-align: center;
+}
+
+.elkeszites {
+  text-align: left;
+  position: relative;
+  left: 750px;
+}
+
 .col-sm-8 {
   padding: 50px;
 }
