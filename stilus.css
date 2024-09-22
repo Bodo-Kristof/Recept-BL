@@ -1,15 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
 body {
     background-color: black;
+    color: white;
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+.col-sm-8 {
+  padding: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.embik {
+  text-align: center;
+  
+  select {
+    border-radius: 10px;
+    max-width: 100px;
+    background-color: black;
+    border: 1px solid aqua;
+  }
 }
 
 h2 {
-    color: white;
     padding: 20px;
     text-align: center;
 
     span {
         color: red;
     }
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 #kep {
@@ -21,9 +49,6 @@ h2 {
     top: 250px; 
 }
 
-p {
-    color: white;
-}
 
 * {box-sizing:border-box}
 
