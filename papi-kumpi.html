@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./chef-hat.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="./stilus.css">
     <title>Paprikás krumpli</title>
@@ -22,7 +23,7 @@
         </ul>
         <form class="navbar-form navbar-left" action="/action_page.php">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search">
+            <input type="text" class="form-control" placeholder="Keresés">
             <div class="input-group-btn">
               <button class="btn btn-default" type="submit">
                 <i class="glyphicon glyphicon-search"></i>
@@ -38,30 +39,45 @@
             <img src="./kaja2.jpg" id="kep">
         </div>
         <div class="col-sm-8">
-            <!-- <img src="./kaja2.jpg" id="kep"> -->
-            <p>A hagyományos paprikás krumpli elkészítéséhez a hagymát megtisztítjuk, apró kockára vágjuk.<br>Tűzálló tálban egy kevés olajat forrósítunk, beletesszük a felaprított hagymát, és üvegesre pirítjuk, majd hozzáadjuk a felkarikázott kolbászt, és megpirítjuk.<br>
-            Lehúzzuk a lábast a tűzhelyről, megszórjuk a kolbászos pirított hagymát a pirospaprikával.<br>Átkeverjük, majd hozzáadjuk az alaposan megmosott, megtisztított, kockákra vágott burgonyát.<br>Felöntjük annyi vízzel, ami majdnem ellepi. Megsózzuk, hozzáadjuk a paradicsompürét, és addig főzzük, amíg a burgonya megpuhul.<br>Friss kenyérrel, savanyú uborkával tálaljuk.</p>
-        </div>
-      <div class="row">
-        <div class="col">
-            <ul>Hozzávalók
-                <li>2fej hagyma</li>
-                <li>teaskanal olaj</li>
-                <li>20dkg Kolbasz</li>
-                <li>2ek pirospaprika</li>
-                <li>1kg burgonya</li>
-                <li>kis só</li>
-                <li>1ek paradicsompüré</li>
-                <li>2ek pirospaprika</li>
-            </ul>
-        </div>
-        <div class="col">
-
-        </div>
-        <div class="col">
-
+          <h1>Paprikás krumpli</h1>
+          <br>
+          <p id="bevezeto">A paprikás krumpli bármikor elkészíthető, és tökéletesen illik a hétköznapi ebédhez vagy a személyes vacsorához. Alapanyagai könnyen beszerezhetők, és a készítés is gyors és egyszerű.</p>
+          <br>
+            <div class="embik">
+              <select id="people-select">
+                <option value="1">1 ember</option>
+                <option value="2">2 ember</option>
+                <option value="3">3 ember</option>
+                <option value="4">4 ember</option>
+                <option value="5">5 ember</option>
+              </select>
+            </div>
+            <div class="col-sm-8">
+              <!-- Szorzódó alapanyagtáblázat -->
+              <ul>Hozzávalók:
+                <li><a href="#">Hagyma <span class="badge" id="szam">2</span><span class="badge">fej</span></a><br></li>
+                <li><a href="#">Olaj <span class="badge" id="szam">1</span><span class="badge">tk</span></a><br></li>
+                <li><a href="#">Kolbász <span class="badge" id="szam">20</span><span class="badge">dkg</span></a><br></li>
+                <li><a href="#">Pirospaprika <span class="badge" id="szam">2</span><span class="badge">ek</span></a><br></li>
+                <li><a href="#">Burgonya <span class="badge" id="szam">1</span><span class="badge">kg</span></a><br></li>
+                <li><a href="#">Paradicsompüré <span class="badge">1</span><span class="badge">ek</span></a><br></li>
+                <li><a href="#">Pirospaprika <span class="badge" id="szam">2</span><span class="badge">ek</span></a><br></li>
+              </ul>
+            </div>
+          </div>
+        <div class="col-sm-6">
+          <div class="elkeszites">
+            <!-- Leírás -->
+            <p>Elkészítés:</p>
+            <p>1. A hagyományos paprikás krumpli elkészítéséhez a hagymát megtisztítjuk, apró kockára vágjuk.</p>
+            <p>2. Tűzálló tálban egy kevés olajat forrósítunk, beletesszük a felaprított hagymát, és üvegesre pirítjuk, majd hozzáadjuk a felkarikázott kolbászt, és megpirítjuk.</p>
+            <p>3. Lehúzzuk a lábast a tűzhelyről, megszórjuk a kolbászos pirított hagymát a pirospaprikával.</p>
+            <p>4. Átkeverjük, majd hozzáadjuk az alaposan megmosott, megtisztított, kockákra vágott burgonyát.</p>
+            <p>5. Felöntjük annyi vízzel, ami majdnem ellepi. Megsózzuk, hozzáadjuk a paradicsompürét, és addig főzzük, amíg a burgonya megpuhul.</p>
+            <p>6. Friss kenyérrel, savanyú uborkával tálaljuk.</p>
+          </div>
         </div>
       </div>
-      <script src="./index.js"></script>
+      <script src="./szorzas.js"></script>
 </body>
 </html>
